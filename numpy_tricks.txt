@@ -3,12 +3,12 @@ for example let suppose we have an array
 
 arr = np.arange(0,11)
 
-let suppose we have to do something which require all the element of this array 
+suppose we have to do something which require all the element of this array 
 if we use p = arr[:] and make some changes in p according to our uses,then our original array "arr"
 changes,and if we dont want any changes in original aaray we make a copy of original array by using 
 a code like  m = arr.copy()  and if we perform  changes in "m"
 our original array "arr" is unchanged
 basically what i find is we have other option also like if we use 
-m = arr*1
+m = arr*1    // see carfully
 if we do any changes in  array "m" it won't affect original array "arr"
 similarily, we can use m = arr+0 it works as well.
