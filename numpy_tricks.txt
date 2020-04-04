@@ -1,4 +1,4 @@
-While working on array we sometimes make a copy of an array
+While working on array we sometimes create a copy of an array
 for example let suppose we have an array  
 
 arr = np.arange(0,11)
