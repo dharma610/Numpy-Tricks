@@ -9,7 +9,7 @@ changes,and if we dont want any changes in original aaray we make a copy of orig
 a code like  m = arr.copy()  and if we perform  changes in "m"
 our original array "arr" is unchanged
 basically what i find is we have other option also like if we use 
-m = arr*1    // see carfully
+m = arr*1  
 if we do any changes in  array "m" it won't affect original array "arr"
 similarily, we can use m = arr+0 it works as well.
 Thank you !
